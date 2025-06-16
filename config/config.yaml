@@ -1,0 +1,10 @@
+train:
+  batch_size: 32
+  epochs: 50
+  learning_rate: 0.001
+  device: cuda
+  seed: 42
+
+path:
+  ckpt_dir: results/checkpoints/
+  log_dir: results/logs/
